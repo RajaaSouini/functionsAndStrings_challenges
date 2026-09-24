@@ -1,14 +1,14 @@
 let fullName = "rajaa souini je vais";
 
 function getInitials(fullName){
-    let initial = fullName[0];
+    let premier = fullName[0];
 
     for(let i = 0 ; i < fullName.length ; i++){
         if(fullName[i] === " "){
-            initial += fullName[i+1];
+            premier += fullName[i+1];
         }
     }
-    return initial.toUpperCase()
+    return premier.toUpperCase()
 }
 console.log(getInitials(fullName))
 
