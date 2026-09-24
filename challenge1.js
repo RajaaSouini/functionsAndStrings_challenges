@@ -2,7 +2,8 @@ let firstName = "Rajaa";
 let lastName = "Souini";
 
 function generateUsername(firstName, lastName){
-    return firstName + " " + lastName;
+    let v = firstName + " " + lastName;
+    return v.toLocaleLowerCase();
 }
 
-console.log(generateUsername(firstName,lastName))
+console.log(generateUsername(firstName,lastName));
